@@ -15,4 +15,12 @@ public class Home {
     public Home(int x) {
         this.x = x;
     }
+
+    @Override
+    public String toString() {
+        return "Home{" +
+                "x=" + x +
+                ", y=" + y +
+                '}';
+    }
 }

@@ -8,6 +8,10 @@ public class Home {
         return x;
     }
 
+    public void setX(int x) {
+        this.x = x;
+    }
+
     public Home(int x) {
         this.x = x;
     }

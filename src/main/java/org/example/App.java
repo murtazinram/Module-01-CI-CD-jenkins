@@ -12,4 +12,14 @@ public class App {
     public String toString() {
         return "App{}";
     }
+
+    private String title;
+
+    public String getTitle() {
+        return title;
+    }
+
+    public void setTitle(String title) {
+        this.title = title;
+    }
 }
